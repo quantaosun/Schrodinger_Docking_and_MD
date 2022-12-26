@@ -10,7 +10,21 @@ It slows down the working efficiency if you do everything in a GUI like prepare 
 
 ![image](https://user-images.githubusercontent.com/75652473/209523406-065d8cd5-02f8-4554-9083-2590dddb1633.png)
 
-There are 4 blocks, 2 docking blocks (1, 3), 2 MD blocks (2,4). Selectively runing some of or all of these blocks give us 3 workflow
+There are 4 blocks, 
+
+```
+
+                     top left : block 1
+                    
+                    middle left: block 2
+                    
+                    middle:      block 3
+                    
+                    right:       block 4
+                    
+                    
+```
+2 docking blocks (1, 3), 2 MD blocks (2,4). Selectively runing some of or all of these blocks give us 3 workflow
 
 
 ```
