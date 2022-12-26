@@ -48,7 +48,9 @@ workflow A: SP docking then do a MD. 12_sp_md_broken_at_1_2.knwf
 workflow B: SP_IFT docking then a MD. 1_34_sp_ifd_md_broken_at_3_4.knwf
 workflow C: SP docking then MD, then IFD, then MD, 1234_sp_md_ifd_md_broken_at_1_2_and_3_4.knwf
 ```
-![image](https://user-images.githubusercontent.com/75652473/209548803-db11106d-a704-4da3-99ab-9225017770f8.png)
+
+![image](https://user-images.githubusercontent.com/75652473/209549223-5e88b873-9865-4c7f-a308-5fbcdba1b5d3.png)
+
 
 Workflow A is too simple, workflow C is too complex, 
 
