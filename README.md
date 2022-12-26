@@ -26,16 +26,14 @@ By using a GUI instead of command line,  to do every tiny task, the working effi
 There are 4 blocks, 
 
 ```
-
-                     top left : block 1
+                     top left :  1
                     
-                    middle left: block 2
+                    middle left:  2
                     
-                    middle:      block 3
+                    middle:      3
                     
-                    right:       block 4
-                    
-                    
+                    right:       4
+                                      
 ```
 2 docking blocks (1, 3), 2 MD blocks (2,4). Selectively runing some of or all of these blocks give us 3 workflow
 
