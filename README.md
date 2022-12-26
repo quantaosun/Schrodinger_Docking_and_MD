@@ -1,5 +1,7 @@
 # Schrodinger_Docking_and_MD
 
+### To use this workflow, download this repo then open the workflow with Knime after Schrodinger has been intalled.
+
 Schroindger's Glide docking and Induced fit docking are leading softwares in molecular docking area, so is the molecular dynamic package integrated with Maestro. 
 Compared to other free docking and MD packages, the advantage of Schrodinger is its graphical user interface(GUI). It allows people without coding basis to do complex jobs, but every coin has a second side.
 It slows down the working efficiency if you do everything in a GUI like prepare a protein structure.  To address this problem, 
