@@ -40,12 +40,12 @@ There are 4 blocks, (you should have the 1234 workflow open by now)
 ![image](https://user-images.githubusercontent.com/75652473/209549655-6b67fa79-a0a4-4e67-9394-8f6298bcf361.png)
 
 
-If a workflow runs block 1 and block 2, and the two block has a broken point (**connectioin has been made succesfully in an update, just keep the name as old, you know what I mean**) in between that require special attention, then this workflow is named as ```12_sp_docking_md_broken_at_1_2.knwf```, likewise, the other two obey the same rules.
+If a workflow runs block 1 and block 2, then this workflow is named as ```12_sp_docking_md.knwf```, likewise, the other two obey the same rules.
 
 ```
-workflow A: SP docking then do a MD. 12_sp_md_broken_at_1_2.knwf
-workflow B: SP_IFT docking then a MD. 1_34_sp_ifd_md_broken_at_3_4.knwf
-workflow C: SP docking then MD, then IFD, then MD, 1234_sp_md_ifd_md_broken_at_1_2_and_3_4.knwf
+workflow A: SP docking then do a MD. 12_sp_md.knwf
+workflow B: SP_IFT docking then a MD. 1_34_sp_ifd_md.knwf
+workflow C: SP docking then MD, then IFD, then MD, 1234_sp_md_ifd_md.knwf
 ```
 ![image](https://user-images.githubusercontent.com/75652473/209549813-18c1ddca-2436-4f32-9bf7-b9d858b2c8fd.png)
 
