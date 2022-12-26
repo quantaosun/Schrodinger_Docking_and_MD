@@ -75,4 +75,4 @@ workflow B provides both good time to accuracy value.
 #### After you have defined you PDB ID and ligand.smi, you could go to the last node of the workflow, and right click then click ```excute```, all upstream nodes would start excuting one by one without any further modification.
 
 # Reference 
-The workflow in this repository is built on top of some Schrodiner's workflow hosted on knime hub https://hub.knime.com/search?q=schrodigner%20space&type=Workflow&sort=best. Block 1,2,3,4 are have borrowed idea from 4 independent workflow, numerous nodes have been deleted/added within each of these workflows. Yet the most challengin and most time consuming part is how to establish correct logic connection between block 1,2; 1,3,4 and 1,2,3,4, wich correct flow variables, which has been succesfully addressed in this project.
+https://hub.knime.com/search?q=schrodigner%20space&type=Workflow&sort=best.
