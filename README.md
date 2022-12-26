@@ -22,7 +22,7 @@ By using a GUI instead of command line,  to do every tiny task, the working effi
 
 ### An example workflow wrapped by Knime can be found in this repository. It does a docking (either SP mode or IFD mode ) then run a MD to optimise the docked pose to give you a more confident binding mode.
 
-![image](https://user-images.githubusercontent.com/75652473/209548684-0ba535fa-4935-4752-b934-0bd39d3343c4.png)
+![image](https://user-images.githubusercontent.com/75652473/209549073-cb35341e-f41c-4d99-b8ee-9121b67192ea.png)
 
 
 There are 4 blocks, 
