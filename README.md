@@ -3,6 +3,8 @@
 
 To use this workflow, download the repo then open it in Knime after Schrodinger has been installed.
 
+There are two input you need to provide, 1st is ```PDB ID``` defines your target, 2nd is ```ligand.smi``` which is a txt or csv file that contains your SMILES string defining the structure of the small molecule to be docked.
+
 Molecular dynamic package integrated with Maestro, as well as Schroindger's Glide docking and Induced a docking, are leading softwares in the molecular simulation area. 
 Schrodinger's advantage over other free docking and MD packages is its graphical user interface (GUI). People without coding knowledge can do complex tasks, but every coin has two sides.
 By using a GUI to do everything, such as preparing protein structures instead of command line, you slow down the working efficiency. In order to solve this problem, 
