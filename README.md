@@ -63,10 +63,10 @@ workflow B provides both good time to accuracy value.
 #### Increase repeatibility of simulation even years later
 
 ## How to modify Knime nodes input
-#### Right click to configure, input the PDB ID with capital letters
+#### Right click ```Get PDB``` node to configure, input the PDB ID with capital letters
 ![image](https://user-images.githubusercontent.com/75652473/209551022-8b68367a-bbb3-4c1d-b69a-a6ceee0853c5.png)
 
-#### Right click Read smiles node to configure by providing the ligand.smi path which contains your SMILES string
+#### Right click ```Smiles Reader``` node to configure by providing the ligand.smi path which contains your SMILES string
 
 ![image](https://user-images.githubusercontent.com/75652473/209551248-d179831b-9dcc-4728-87dc-5419163644ec.png)
 
