@@ -26,6 +26,7 @@ There are 4 blocks,
 ```
 2 docking blocks (1, 3), 2 MD blocks (2,4). Selectively runing some of or all of these blocks give us 3 workflow
 
+If a workflow runs block 1 and block 2, and the two block has a broken point in between that require special attention, then this workflow is named as ```12_sp_docking_md_broken_at_1_2.knwf```, likewise, the other two obey the same rules.
 
 ```
 workflow A: SP docking then do a MD. 12_sp_md_broken_at_1_2.knwf
