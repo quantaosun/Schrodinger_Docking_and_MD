@@ -19,3 +19,4 @@ workflow B: SP_IFT docking then a MD. 1_34_sp_ifd_md_broken_at_3_4.knwf
 workflow C: SP docking then MD, then IFD, then MD, 1234_sp_md_ifd_md_broken_at_1_2_and_3_4.knwf
 ```
 Workflow A is too simple, workflow C is too complex, workflow B provides both good time to accuracy value.
+As the title of each workflow indicates, there are at least one broken point inside the workflow which is not perfect, you are supposed to mannually connect those broken point by defining the correct output path from prevously finished block. 
