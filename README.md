@@ -23,7 +23,7 @@ By using a GUI instead of command line,  to do every tiny task, the working effi
 ### An example workflow wrapped by Knime can be found in this repository. It does a docking (either SP mode or IFD mode ) then run a MD to optimise the docked pose to give you a more confident binding mode.
 
 
-There are 4 blocks, 
+There are 4 blocks, (you should have the 1234 workflow open by now)
 
 ```
                      top left :  1
