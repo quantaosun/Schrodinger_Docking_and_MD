@@ -22,8 +22,6 @@ By using a GUI instead of command line,  to do every tiny task, the working effi
 
 ### An example workflow wrapped by Knime can be found in this repository. It does a docking (either SP mode or IFD mode ) then run a MD to optimise the docked pose to give you a more confident binding mode.
 
-![image](https://user-images.githubusercontent.com/75652473/209549073-cb35341e-f41c-4d99-b8ee-9121b67192ea.png)
-
 
 There are 4 blocks, 
 
@@ -41,7 +39,10 @@ There are 4 blocks,
 ```
 2 docking blocks (1, 3), 2 MD blocks (2,4). Selectively runing some of or all of these blocks give us 3 workflow
 
-If a workflow runs block 1 and block 2, and the two block has a broken point in between that require special attention, then this workflow is named as ```12_sp_docking_md_broken_at_1_2.knwf```, likewise, the other two obey the same rules.
+![image](https://user-images.githubusercontent.com/75652473/209549655-6b67fa79-a0a4-4e67-9394-8f6298bcf361.png)
+
+
+If a workflow runs block 1 and block 2, and the two block has a broken point (connectioin has been made succesfully in an update) in between that require special attention, then this workflow is named as ```12_sp_docking_md_broken_at_1_2.knwf```, likewise, the other two obey the same rules.
 
 ```
 workflow A: SP docking then do a MD. 12_sp_md_broken_at_1_2.knwf
