@@ -12,7 +12,7 @@ Schrodinger's advantage over other free docking and MD packages is its wonderful
 A fancy GUI could easily distract you attention as well, makng it hard to logically think of your problems due to too much colorful process. What you really need is a plain process or a 
 black box process, and to save your energy for the final docked pose analysis at last.
 
-By using a GUI to do every tiny task, such as preparing protein structures instead of command line, you slow down the working efficiency. In order to solve this problem, 
+By using a GUI instead of command line,  to do every tiny task, the working efficiency drops significantly. In order to solve this problem, 
 
 ### An example workflow wrapped by Knime can be found in this repository. It does a docking (either SP mode or IFD mode ) then run a MD to optimise the docked pose to give you a more confident binding mode.
 
@@ -46,3 +46,9 @@ Workflow A is too simple, workflow C is too complex,
 workflow B provides both good time to accuracy value.
 
 As the title of each workflow indicates, there are at least one broken point inside the workflow which is not perfect, you are supposed to mannually connect those broken point by defining the correct output path from prevously finished block. 
+
+#### Benefit of this workflow
+
+##### Save your time by automation
+
+#### Increase repeatibility of simulation even years later
