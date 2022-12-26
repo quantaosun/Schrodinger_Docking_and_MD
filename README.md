@@ -45,7 +45,6 @@ Workflow A is too simple, workflow C is too complex,
 
 workflow B provides both good time to accuracy value.
 
-As the title of each workflow indicates, there are at least one broken point inside the workflow which is not perfect, you are supposed to mannually connect those broken point by defining the correct output path from prevously finished block. 
 
 #### Benefit of this workflow
 
