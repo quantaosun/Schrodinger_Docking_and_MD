@@ -70,7 +70,7 @@ workflow B provides both good time to accuracy value.
 
 ![image](https://user-images.githubusercontent.com/75652473/209551248-d179831b-9dcc-4728-87dc-5419163644ec.png)
 
-### How to start a workflow
+### How to excute the whole workflow
 
 #### After you have defined you PDB ID and ligand.smi, you could go to the last node of the workflow, and right click then click ```excute```, all upstream nodes would start excuting one by one.
 
