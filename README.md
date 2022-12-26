@@ -12,5 +12,5 @@ There are 4 blocks, 2 docking blocks (1, 3), 2 MD blocks (2,4). Selectively runi
 
 workflow A: SP docking then do a MD. 12_sp_docking_md.knwf
 workflow B: SP_IFT docking then a MD. 13_4_ifd_docking_md.knwf
-workflow C: SP docking then MD, then IFD, then MD, 1234_sp_md_ifd_md.knwf
+workflow C: SP docking then MD, then IFD, then MD, 1234_sp_md_ifd_md_broken_at_1_2_and_3_4.knwf
 
