@@ -10,7 +10,7 @@ Schrodinger's advantage over other free docking and MD packages is its wonderful
 black box process, and to save your energy for the final docked pose analysis at last.
 By using a GUI to do everything, such as preparing protein structures instead of command line, you slow down the working efficiency. In order to solve this problem, 
 
-An example workflow wrapped by Knime can be found in this repository. It does a docking (either SP mode or IFD mode ) then run a MD to optimise the docked pose to give you a more confident binding mode.
+### An example workflow wrapped by Knime can be found in this repository. It does a docking (either SP mode or IFD mode ) then run a MD to optimise the docked pose to give you a more confident binding mode.
 
 ![image](https://user-images.githubusercontent.com/75652473/209523406-065d8cd5-02f8-4554-9083-2590dddb1633.png)
 
@@ -37,5 +37,8 @@ workflow A: SP docking then do a MD. 12_sp_md_broken_at_1_2.knwf
 workflow B: SP_IFT docking then a MD. 1_34_sp_ifd_md_broken_at_3_4.knwf
 workflow C: SP docking then MD, then IFD, then MD, 1234_sp_md_ifd_md_broken_at_1_2_and_3_4.knwf
 ```
-Workflow A is too simple, workflow C is too complex, workflow B provides both good time to accuracy value.
+Workflow A is too simple, workflow C is too complex, 
+
+workflow B provides both good time to accuracy value.
+
 As the title of each workflow indicates, there are at least one broken point inside the workflow which is not perfect, you are supposed to mannually connect those broken point by defining the correct output path from prevously finished block. 
