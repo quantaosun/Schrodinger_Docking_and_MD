@@ -61,3 +61,8 @@ workflow B provides both good time to accuracy value.
 ##### Save your time by automation
 
 #### Increase repeatibility of simulation even years later
+
+## How to modify Knime nodes input
+#### Right click to configure, input the PDB ID with capital letters
+![image](https://user-images.githubusercontent.com/75652473/209551022-8b68367a-bbb3-4c1d-b69a-a6ceee0853c5.png)
+
