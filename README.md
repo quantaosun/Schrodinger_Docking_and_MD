@@ -42,7 +42,7 @@ There are 4 blocks,
 ![image](https://user-images.githubusercontent.com/75652473/209549655-6b67fa79-a0a4-4e67-9394-8f6298bcf361.png)
 
 
-If a workflow runs block 1 and block 2, and the two block has a broken point (connectioin has been made succesfully in an update) in between that require special attention, then this workflow is named as ```12_sp_docking_md_broken_at_1_2.knwf```, likewise, the other two obey the same rules.
+If a workflow runs block 1 and block 2, and the two block has a broken point (*connectioin has been made succesfully in an update*) in between that require special attention, then this workflow is named as ```12_sp_docking_md_broken_at_1_2.knwf```, likewise, the other two obey the same rules.
 
 ```
 workflow A: SP docking then do a MD. 12_sp_md_broken_at_1_2.knwf
