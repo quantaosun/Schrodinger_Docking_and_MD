@@ -10,7 +10,9 @@ It slows down the working efficiency if you do everything in a GUI like prepare 
 
 There are 4 blocks, 2 docking blocks (1, 3), 2 MD blocks (2,4). Selectively runing some of or all of these blocks give us 3 workflow
 
-workflow A: SP docking then do a MD. 12_sp_docking_md.knwf
-workflow B: SP_IFT docking then a MD. 13_4_ifd_docking_md.knwf
-workflow C: SP docking then MD, then IFD, then MD, 1234_sp_md_ifd_md_broken_at_1_2_and_3_4.knwf
 
+```
+workflow A: SP docking then do a MD. 12_sp_md_broken_at_1_2.knwf
+workflow B: SP_IFT docking then a MD. 1_34_sp_ifd_md_broken_at_3_4.knwf
+workflow C: SP docking then MD, then IFD, then MD, 1234_sp_md_ifd_md_broken_at_1_2_and_3_4.knwf
+```
