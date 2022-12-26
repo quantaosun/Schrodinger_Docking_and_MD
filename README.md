@@ -10,14 +10,13 @@ There are two input you need to provide, 1st is ```PDB ID``` defines your target
 
 ![image](https://user-images.githubusercontent.com/75652473/209549358-4be51f79-2fb8-452a-bd66-e6ae35029e60.png)
 
-
-![image](https://user-images.githubusercontent.com/75652473/209548765-5afd5e53-98f8-42b9-ada9-c9d0557e2645.png)
-
-
 Schrodinger's advantage over other free docking and MD packages is its wonderful graphical user interface (GUI). People without coding knowledge can do complex tasks, but every coin has two sides. 
 
 A fancy GUI could easily distract you attention as well, makng it hard to logically think of your problems due to too much colorful process. What you really need is a plain process or a 
 black box process, and to save your energy for the final docked pose analysis at last.
+
+![image](https://user-images.githubusercontent.com/75652473/209549513-321f51c1-447a-40a8-a795-c535554ef4a0.png)
+
 
 By using a GUI instead of command line,  to do every tiny task, the working efficiency drops significantly. In order to solve this problem, 
 
