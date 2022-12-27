@@ -1,21 +1,17 @@
 
 # Schrodinger_Docking_and_MD
 
-### To use this workflow, download the repo then open it in Knime (https://www.knime.com/ ) after Schrodinger has been installed.
+## This repository does a docking (either SP mode or IFD mode ) then run a MD to optimise the docked pose to give you a more confident binding mode.
+
+Schrodinger's advantage over other free docking and MD packages is its wonderful graphical user interface (GUI). People without coding knowledge can do complex tasks, but every coin has two sides. A fancy GUI could easily distract you attention as well, makng it hard to logically think of your problems.By using a GUI instead of command line,  to do every tiny task, the working efficiency drops significantly. In order to solve this problem,
+
+## To use this workflow, download the repo then open it in Knime (https://www.knime.com/ ) after Schrodinger has been installed.
 
 There are two input you need to provide, 1st is ```PDB ID``` defines your target, 2nd is ```ligand.smi``` which is a txt or csv file that contains your SMILES string defining the structure of the small molecule to be docked. See the last to know how to do this.
 
 ![image](https://user-images.githubusercontent.com/75652473/209549358-4be51f79-2fb8-452a-bd66-e6ae35029e60.png)
 
-Schrodinger's advantage over other free docking and MD packages is its wonderful graphical user interface (GUI). People without coding knowledge can do complex tasks, but every coin has two sides. A fancy GUI could easily distract you attention as well, makng it hard to logically think of your problems.By using a GUI instead of command line,  to do every tiny task, the working efficiency drops significantly. In order to solve this problem,
 
-### This repository does a docking (either SP mode or IFD mode ) then run a MD to optimise the docked pose to give you a more confident binding mode.
-
-```
-workflow A: SP docking then do a MD. sp_md.knwf
-workflow B: SP_IFT docking then a MD. sp_ifd_md.knwf
-workflow C: SP docking then MD, then IFD, then MD, sp_md_ifd_md.knwf
-```
 ## How to modify Knime nodes input
 #### Right click ```Get PDB``` node to configure, input the PDB ID with capital letters
 ![image](https://user-images.githubusercontent.com/75652473/209551022-8b68367a-bbb3-4c1d-b69a-a6ceee0853c5.png)
