@@ -17,22 +17,15 @@ There are two input you need to provide, 1st is ```PDB ID``` defines your target
 
 Schrodinger's advantage over other free docking and MD packages is its wonderful graphical user interface (GUI). People without coding knowledge can do complex tasks, but every coin has two sides. 
 
-A fancy GUI could easily distract you attention as well, makng it hard to logically think of your problems.By using a GUI instead of command line,  to do every tiny task, the working efficiency drops significantly. In order to solve this problem, 
-
-![image](https://user-images.githubusercontent.com/75652473/209549513-321f51c1-447a-40a8-a795-c535554ef4a0.png)
-
+A fancy GUI could easily distract you attention as well, makng it hard to logically think of your problems.By using a GUI instead of command line,  to do every tiny task, the working efficiency drops significantly. In order to solve this problem,
 
 ### This repository does a docking (either SP mode or IFD mode ) then run a MD to optimise the docked pose to give you a more confident binding mode.
-
-![image](https://user-images.githubusercontent.com/75652473/209549655-6b67fa79-a0a4-4e67-9394-8f6298bcf361.png)
 
 ```
 workflow A: SP docking then do a MD. sp_md.knwf
 workflow B: SP_IFT docking then a MD. sp_ifd_md.knwf
 workflow C: SP docking then MD, then IFD, then MD, sp_md_ifd_md.knwf
 ```
-![image](https://user-images.githubusercontent.com/75652473/209549813-18c1ddca-2436-4f32-9bf7-b9d858b2c8fd.png)
-
 ## How to modify Knime nodes input
 #### Right click ```Get PDB``` node to configure, input the PDB ID with capital letters
 ![image](https://user-images.githubusercontent.com/75652473/209551022-8b68367a-bbb3-4c1d-b69a-a6ceee0853c5.png)
