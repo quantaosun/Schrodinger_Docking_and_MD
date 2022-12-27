@@ -3,7 +3,7 @@
 
 ## This repository does a docking (either SP mode or IFD mode ) then run a MD to optimise the docked pose to give you a more confident binding mode.
 
-Schrodinger's advantage over other free docking and MD packages is its wonderful graphical user interface (GUI). People without coding knowledge can do complex tasks, but every coin has two sides. A fancy GUI could easily distract you attention as well, makng it hard to logically think of your problems.By using a GUI instead of command line,  to do every tiny task, the working efficiency drops significantly. In order to solve this problem,
+Schrodinger's advantage over other free docking and MD packages is its wonderful graphical user interface (GUI). People without coding knowledge can do complex tasks, but every coin has two sides. A fancy GUI could easily distract you attention as well, makng it hard to logically think of your problems.In 
 
 ## To use this workflow, download the repo then open it in Knime (https://www.knime.com/ ) after Schrodinger has been installed.
 
