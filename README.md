@@ -3,9 +3,9 @@
 
 ## This repository does a docking (either SP mode or IFD mode ) then run a MD to optimise the docked pose to give you a more confident binding mode.
 
-Schrodinger's advantage over other free docking and MD packages is its wonderful graphical user interface (GUI). People without coding knowledge can do complex tasks, but every coin has two sides. A fancy GUI could easily distract you attention as well, makng it hard to logically think of your problems.In 
+Schrodinger's advantage over other free docking and MD packages is its wonderful graphical user interface (GUI). People without coding knowledge can do complex tasks, but every coin has two sides. A fancy GUI could easily distract you attention and slows down the work efficiency as well. A good way to automatition for Schrodinger simulation and hide unnecessary process as backend is to use Knime(https://www.knime.com/ ). It saves great amount of time and make the simulation process highly repeatable.
 
-## To use this workflow, download the repo then open it in Knime (https://www.knime.com/ ) after Schrodinger has been installed.
+## To use this workflow, download the repo then open it in Knime  after Schrodinger has been installed.
 
 There are two input you need to provide, 1st is ```PDB ID``` defines your target, 2nd is ```ligand.smi``` which is a txt or csv file that contains your SMILES string defining the structure of the small molecule to be docked.
 
