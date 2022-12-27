@@ -7,7 +7,7 @@ Schrodinger's advantage over other free docking and MD packages is its wonderful
 
 ## To use this workflow, download the repo then open it in Knime (https://www.knime.com/ ) after Schrodinger has been installed.
 
-There are two input you need to provide, 1st is ```PDB ID``` defines your target, 2nd is ```ligand.smi``` which is a txt or csv file that contains your SMILES string defining the structure of the small molecule to be docked. See the last to know how to do this.
+There are two input you need to provide, 1st is ```PDB ID``` defines your target, 2nd is ```ligand.smi``` which is a txt or csv file that contains your SMILES string defining the structure of the small molecule to be docked.
 
 ![image](https://user-images.githubusercontent.com/75652473/209549358-4be51f79-2fb8-452a-bd66-e6ae35029e60.png)
 
